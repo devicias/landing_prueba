@@ -1,65 +1,91 @@
-body{
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;  
+    padding: 0;  
+    background-color: #f8f9fa; 
 }
 
-.main{
-	background: url('../images/bg22.jpeg') no-repeat center center;
-	background-size: cover;
-	}
-
-.main .headline{
-	color:#FFFFFF; 
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 3.4rem;
-	margin-bottom: 1.8rem;
-	text-shadow: 6px 0px 24px rgb(0, 0, 0.98);
+.header {
+    background: url('../images/bg22.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;  
 }
 
-.main .headline-caption{
-	color: #FFF;
-	font-size: 1.4rem;
-	text-shadow: 6px 0px 24px rgb(0, 0, 0.98);
+.headline {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 6rem;
+    margin-bottom: 1.8rem;
+    text-shadow: 6px 0px 24px rgba(0, 0, 0, 0.98);  
 }
 
-.main .navbar-latam{
-	background-color: transparent;
-	border-color: transparent;
-
+.headline-caption {
+    color: #FFF;
+    font-size: 1.5rem;
+    text-shadow: 6px 0px 24px rgba(0, 0, 0, 0.98);  
 }
 
-.main .navbar-brand .logo {
-	max-width: 150px;
-} 
-
-.block h2{
-	text-transform: uppercase;
-	font-weight: bold;
+.navbar-latam {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;  
 }
 
-.block .people{
-	max-width: 400px;
+.navbar-brand .logo {
+    max-width: 150px;
 }
 
-.block.alt{
-	background: #EEE;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	border-top: 1px solid #CCC;
-	border-bottom: 1px solid #CCC;
+.block {
+    padding: 30px 0; 
 }
 
-.block.info h3{
-	font-size: 2rem;
-	text-transform: capitalize;
-	font-weight: bold;
+.block h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;  
+}
+
+.people {
+    max-width: 50%; /* Asegura que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.block.alt {
+    background: #EEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.block.info h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px; /* Añadí margen inferior para separación */
 }
 
 footer {
-	background: #424242;
-	}
+    background: #424242;
+    padding: 20px 0; /* Añadí padding para dar espacio */
+}
 
-footer.p{
-	color: #FFF;
+footer h3, address {
+    color: white;
+    margin: 0 0 10px; /* Asegura que el texto esté centrado correctamente */
+    text-align:left; /* Centra el texto del pie de página */
+
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.footerin{
+	background: black;
+	max-width: 100%;
 }
